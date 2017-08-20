@@ -29,22 +29,18 @@ compress_html:
 # Links to include in menu navigation
 links:
   - title: home
-    url: /
+    url: https://mwtndmik.github.io
   - title: my posts
-    url: /posts
+    url: https://mwtndmik.github.io/posts
   - title: series
-    url: /series
+    url: https://mwtndmik.github.io/series
   - title: tags
-    url: /tags
+    url: https://mwtndmik.github.io/tags
   - title: about me
-    url: /about
+    url: https://mwtndmik.github.io/about
 # projects in header index
 projects:
-  - name: asciilang
-    url: https://github.com/victorvoid/asciilang
-  - name: vim-frontend
-    url: https://github.com/victorvoid/vim-frontend
-  - name: generator-capybara
-    url: https://github.com/victorvoid/generator-capybara
+  - name: member of "NAFT Nagoya University Aerospace and Flight Technologies"
+    url: http://naft.space
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
