@@ -1,8 +1,8 @@
 # Site settings
 title: mwtndmik Blog
 description: "A blog about mwtndmik"
-baseurl: "" # for test: remove string '/space-jekyll-templa' to ''
-url: "https://mwtndmik.githu.io" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.githu.io'
+baseurl: "https://mwtndmik.github.io" # for test: remove string '/space-jekyll-templa' to ''
+url: "https://mwtndmik.github.io" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.githu.io'
 # User settings
 username: mwtndmik
 user_title: mwtndmik - FrontEnd
