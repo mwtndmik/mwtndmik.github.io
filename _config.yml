@@ -29,15 +29,15 @@ compress_html:
 # Links to include in menu navigation
 links:
   - title: home
-    url: https://mwtndmik.github.io
+    url: /
   - title: my posts
-    url: https://mwtndmik.github.io/posts
+    url: /posts
   - title: series
-    url: https://mwtndmik.github.io/series
+    url: /series
   - title: tags
-    url: https://mwtndmik.github.io/tags
+    url: /tags
   - title: about me
-    url: https://mwtndmik.github.io/about
+    url: /about
 # projects in header index
 projects:
   - name: member of "NAFT Nagoya University Aerospace and Flight Technologies"
