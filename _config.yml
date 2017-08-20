@@ -1,15 +1,15 @@
 # Site settings
 title: mwtndmik Blog
-description: "A blog about lorem ipsum ..."
+description: "A blog about mwtndmik"
 baseurl: "" # for test: remove string '/space-jekyll-templa' to ''
-url: "http://victorvoid.github.io/space-jekyll-template/" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.githu.io'
+url: "https://mwtndmik.githu.io" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.githu.io'
 # User settings
 username: mwtndmik
 user_title: mwtndmik - FrontEnd
 email: 235711131719k@gmail.com
 twitter_username: mwtndmik
 github_username:  mwtndmik
-gplus_username:  
+gplus_username:
 disqus_username:
 profile_picture: https://farm5.staticflickr.com/4403/36514844632_7cc81ae7f0_o.jpg
 
