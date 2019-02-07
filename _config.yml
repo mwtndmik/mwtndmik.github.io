@@ -9,9 +9,9 @@ user_title: mwtndmik - FrontEnd
 email: 235711131719k@gmail.com
 twitter_username: mwtndmik
 github_username:  mwtndmik
-gplus_username:
-disqus_username:
-profile_picture: https://farm5.staticflickr.com/4403/36514844632_7cc81ae7f0_o.jpg
+facebook_username: Kazuk.Sugiyam
+scrapbox_username: mwtndmik
+profile_picture: /assets/img/basic/icon.png
 
 # Build settings
 markdown: kramdown
@@ -42,5 +42,31 @@ links:
 projects:
   - name: member of "NAFT Nagoya University Aerospace and Flight Technologies"
     url: http://naft.space
+# skill_lang in about me
+lang:
+  - name: Kotlin
+  - name: Python
+  - name: C
+  - name: Scheme
+#skill_field in about me
+field:
+  - name: Android
+  - name: Blockchain / CryptoCurrency
+  - name: Embedded software (電装・組み込み)
+  - name: 3D CAD modeling
+#belong in about me
+belong:
+  - name: Electronic-Mechanical Engineering Course, Department of Mechanical and Aerospace Engineering, School of Engineering, Nagoya University
+    url: http://www.nuem.nagoya-u.ac.jp/index.html
+  - name: NAFT Nagoya University Aerospace and Flight Technologies
+    url: https://naft.space
+#awards in about me
+award:
+  - name: 2018/03  GUNMA PROGRAMMING AWARD 2018 application finalist
+    url: https://www.gp-award.jp/final-stage-2018.php
+    content: developped "μTCAS", which is "small, light and inexpensive" Traffic alert and Collision Avoidance System for Drone
+  - name: 2018/08  Yenom BitcoinHacathon Yenom award
+    url: https://www.neweconomy.jp/posts/22873/2#入賞チーム
+    content: suggested Android application "sumo", which is a diet application using BitcoinCash and incentive management
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']

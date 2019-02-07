@@ -80,7 +80,7 @@ img {
 }
 
 svg:not(:root) {
-  overflow: hidden
+  overflow: hidden;
 }
 
 figure {
@@ -802,6 +802,20 @@ body.search-overlay:after {
 
 .aboutme .recent {
   list-style: none
+}
+
+.aboutme a {
+  text-decoration: none;
+}
+
+.aboutme svg {
+  margin: .938rem;
+  width: 35px;
+  height: 35px;
+}
+
+.aboutme a:hover svg {
+  fill: #5d4d7a
 }
 
 .aboutme .post-title:before {

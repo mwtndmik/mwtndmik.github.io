@@ -9,25 +9,27 @@
             <span class="site-title">[{{site.username}}]</span>
         </h1>
 
+        <a href="{{site.url}}/about/"><h1>About me</h1></a>
+
         <div class="icons-home">
-            <a aria-label="Send email" title="Send me a e-mail" href="mailto:{{site.email}}">
-                <svg class="icon icon-email"><use xlink:href="#icon-email"></use></svg>
+            <a aria-label="My Github" title="Show my projetcts" target="_blank" href="https://github.com/{{site.github_username}}">
+                <svg class="icon icon-github-alt"><use xlink:href="#icon-github-alt"></use></svg>
+            </a>
+
+            <a aria-label="My scrapbox.io project" title="Show my scrapbox.io projects" target="_blank" href="https://scrapbox.io/{{site.scrapbox_username}}/">
+                <svg class="icon icon-scrapbox"><use xlink:href="#icon-scrapbox"></use></svg>
             </a>
 
             <a aria-label="My Twitter" title="Follow me on Twitter" target="_blank" href="https://twitter.com/{{site.twitter_username}}">
                 <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
             </a>
 
-            <a aria-label="My Google Plus" title="Show my feed" target="_blank" href="https://plus.google.com/u/0/+{{site.gplus_username}}/posts">
-                <svg class="icon icon-google-plus"><use xlink:href="#icon-google-plus"></use></svg>
+            <a aria-label="My Facebook" title="Follow me on Facebook" target="_blank" href="https://www.facebook.com/{{site.facebook_username}}">
+                <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
             </a>
 
-            <a aria-label="My Github" title="Show my projetcts" target="_blank" href="https://github.com/{{site.github_username}}">
-                <svg class="icon icon-github-alt"><use xlink:href="#icon-github-alt"></use></svg>
-            </a>
-
-            <a aria-label="Use the RSS to get updated" title="Register for my RSS" target="_blank" href="{{ "/feed.xml" | prepend: site.baseurl }}">
-                <svg class="icon icon-rss"><use xlink:href="#icon-rss"></use></svg>
+            <a aria-label="Send email" title="Send me an e-mail" href="mailto:{{site.email}}">
+                <svg class="icon icon-email"><use xlink:href="#icon-email"></use></svg>
             </a>
         </div>
 
@@ -42,6 +44,7 @@
               {% endfor %}
         </ul>
 
+        <!--
         <ul class="recent">
             <p>Recent projects:</p>
              {% for project in site.projects limit:3%}
@@ -52,6 +55,7 @@
                 </li>
               {% endfor %}
         </ul>
+        -->
 
     </div>
     {% include menu-search.html %}
