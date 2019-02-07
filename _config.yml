@@ -52,7 +52,7 @@ lang:
 field:
   - name: Android
   - name: Blockchain / CryptoCurrency
-  - name: Embedded software (電装・組み込み)
+  - name: Embedded software
   - name: 3D CAD modeling
 #belong in about me
 belong:
