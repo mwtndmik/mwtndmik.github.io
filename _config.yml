@@ -1,3 +1,5 @@
+plugins:
+  - jekyll-seo-tag
 # Site settings
 title: mwtndmik Blog
 description: "A blog about mwtndmik"
