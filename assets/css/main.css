@@ -80,7 +80,8 @@ img {
 }
 
 svg:not(:root) {
-  overflow: hidden;
+  overflow: hidden
+  transform-box: fill-box
 }
 
 figure {
