@@ -844,16 +844,6 @@ body.search-overlay:after {
   text-decoration: none;
 }
 
-.aboutme svg {
-  margin: .938rem;
-  width: 35px;
-  height: 35px;
-}
-
-.aboutme a:hover svg {
-  fill: #5d4d7a
-}
-
 .aboutme .post-title:before {
   content: ""
 }
