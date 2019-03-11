@@ -11,7 +11,7 @@ url: "https://mwtndmik.github.io" # for test: remove string 'http://victorvoid.g
 # User settings
 username: mwtndmik
 user_title: mwtndmik
-email: 235711131719k@gmail.com
+email: kazuki.sugiyam@gmail.com
 twitter_username: mwtndmik
 github_username:  mwtndmik
 facebook_username: Kazuk.Sugiyam
@@ -50,14 +50,15 @@ projects:
 # skill_lang in about me
 language:
   - name: Kotlin
+  - name: TypeScript
   - name: Python
   - name: C
   - name: Scheme
 #skill_field in about me
 field:
-  - name: Android
   - name: Blockchain / CryptoCurrency
   - name: Embedded software
+  - name: Android
   - name: 3D CAD modeling
 #belong in about me
 belong:
@@ -65,6 +66,11 @@ belong:
     url: http://www.nuem.nagoya-u.ac.jp/index.html
   - name: NAFT Nagoya University Aerospace and Flight Technologies
     url: https://naft.space
+#services in about me
+service:
+  - name: Original BTC Address Generator
+    url: https://originaladdress.net
+    content: You can generate Bitcoin(BTC) address which start with the string you like (called vanity address) on the browser.<br>e.g. Btc → 1BtcCUhM...KyFT15
 #awards in about me
 award:
   - name: 2018/03  GUNMA PROGRAMMING AWARD 2018 application finalist
@@ -73,5 +79,7 @@ award:
   - name: 2018/08  Yenom BitcoinHacathon Yenom award
     url: https://www.neweconomy.jp/posts/22873/2#入賞チーム
     content: suggested Android application "sumo", which is a diet application using BitcoinCash and incentive management
+  - name: 2019/03  GUNMA PROGRAMMING AWARD 2019 application finalist
+    content: developped server less P2P real estate lease application "LEthRoom" using ETH blockchain.
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']

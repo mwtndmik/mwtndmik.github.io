@@ -8,65 +8,94 @@ description: "I'm Kazuki Sugiyama"
 <img itemprop="image" class="img-rounded about_perfil" src=" {{site.url}}/assets/img/basic/icon.png" alt="My profile">
 
 <div class="aboutme">
-	<h1>I'm Kazuki Sugiyama</h1>
+    <h1>I'm Kazuki Sugiyama</h1>
 
-	<div class="icons-aboutme">
-			<a aria-label="My Github" title="Show my projetcts" target="_blank" href="https://github.com/{{site.github_username}}">
-					<svg class="icon icon-github"><use xlink:href="#icon-github-alt"></use></svg>
-			</a>
+    <div class="icons-aboutme">
+        <a aria-label="My Github" title="Show my projetcts" target="_blank" href="https://github.com/{{site.github_username}}">
+            <svg class="icon icon-github">
+                <use xlink:href="#icon-github-alt"></use>
+            </svg>
+        </a>
 
-			<a aria-label="My scrapbox.io project" title="Show my scrapbox.io projects" target="_blank" href="https://scrapbox.io/{{site.scrapbox_username}}/">
-					<svg class="icon icon-scrapbox"><use xlink:href="#icon-scrapbox"></use></svg>
-			</a>
+        <a aria-label="My scrapbox.io project" title="Show my scrapbox.io projects" target="_blank" href="https://scrapbox.io/{{site.scrapbox_username}}/">
+            <svg class="icon icon-scrapbox">
+                <use xlink:href="#icon-scrapbox"></use>
+            </svg>
+        </a>
 
-			<a aria-label="My Twitter" title="Follow me on Twitter" target="_blank" href="https://twitter.com/{{site.twitter_username}}">
-					<svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
-			</a>
+        <a aria-label="My Twitter" title="Follow me on Twitter" target="_blank" href="https://twitter.com/{{site.twitter_username}}">
+            <svg class="icon icon-twitter">
+                <use xlink:href="#icon-twitter"></use>
+            </svg>
+        </a>
 
-			<a aria-label="My Facebook" title="Follow me on Facebook" target="_blank" href="https://www.facebook.com/{{site.facebook_username}}">
-					<svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
-			</a>
+        <a aria-label="My Facebook" title="Follow me on Facebook" target="_blank" href="https://www.facebook.com/{{site.facebook_username}}">
+            <svg class="icon icon-facebook">
+                <use xlink:href="#icon-facebook"></use>
+            </svg>
+        </a>
 
-			<a aria-label="Send email" title="Send me an e-mail" href="mailto:{{site.email}}">
-					<svg class="icon icon-email"><use xlink:href="#icon-email"></use></svg>
-			</a>
-	</div>
+        <a aria-label="Send email" title="Send me an e-mail" href="mailto:{{site.email}}">
+            <svg class="icon icon-email">
+                <use xlink:href="#icon-email"></use>
+            </svg>
+        </a>
+    </div>
 
-	<br /><br />
+    <br /><br />
 
-	<h2>Belong</h2>
-	<ul class="recent">
-		{% for belong in site.belong %}
-	    	<li><a href="{{ belong.url}}"><h3 class="belong-name" itemprop="name">{{ belong.name }}</h3></a></li>
-	    {% endfor %}
-	</ul>
+    <h2>Belong</h2>
+    <ul class="recent">
+        {% for belong in site.belong %}
+        <li><a href="{{ belong.url}}">
+                <h3 class="belong-name" itemprop="name">{{ belong.name }}</h3>
+            </a></li>
+        {% endfor %}
+    </ul>
 
-	<h2>Awards</h2>
-	<ul class="recent">
-		{% for award in site.award %}
-	    	<li><a href="{{ award.url}}"><h3 class="award-name" itemprop="name">{{ award.name }}</h3></a>
-					<h4>{{ award.content }}</h4>
-				</li>
-	    {% endfor %}
-	</ul>
+    <h2>Services</h2>
+    <ul class="recent">
+        {% for service in site.service %}
+        <li><a href="{{ service.url}}">
+                <h3 class="service-name" itemprop="name">{{ service.name }}</h3>
+            </a>
+            <h4>{{ service.content }}</h4>
+        </li>
+        {% endfor %}
+    </ul>
 
-	<h2>Skill</h2>
+    <h2>Awards</h2>
+    <ul class="recent">
+        {% for award in site.award %}
+        <li><a href="{{ award.url}}">
+                <h3 class="award-name" itemprop="name">{{ award.name }}</h3>
+            </a>
+            <h4>{{ award.content }}</h4>
+        </li>
+        {% endfor %}
+    </ul>
 
-	<h3>Field</h3>
-	<ul class="field">
-		{% for field in site.field %}
-	    	<li><h3 class="field-name" itemprop="name">{{ field.name }}</h3></li>
-	    {% endfor %}
-	</ul>
+    <h2>Skill</h2>
 
-	<h3>Lang</h3>
-	<ul class="language">
-		{% for lang in site.language %}
-	    	<li><h3 class="lang-name" itemprop="name">{{ lang.name }}</h3></li>
-	    {% endfor %}
-	</ul>
+    <h3>Field</h3>
+    <ul class="field">
+        {% for field in site.field %}
+        <li>
+            <h3 class="field-name" itemprop="name">{{ field.name }}</h3>
+        </li>
+        {% endfor %}
+    </ul>
 
-<!--
+    <h3>Lang</h3>
+    <ul class="language">
+        {% for lang in site.language %}
+        <li>
+            <h3 class="lang-name" itemprop="name">{{ lang.name }}</h3>
+        </li>
+        {% endfor %}
+    </ul>
+
+    <!--
 	<h2>My projects</h2>
 	<ul class="recent">
 		{% for project in site.projects %}
