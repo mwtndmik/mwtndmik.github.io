@@ -80,6 +80,7 @@ award:
     url: https://www.neweconomy.jp/posts/22873/2#入賞チーム
     content: suggested Android application "sumo", which is a diet application using BitcoinCash and incentive management
   - name: 2019/03  GUNMA PROGRAMMING AWARD 2019 application finalist
+    url: https://github.com/mwtndmik/LEthRoom
     content: developped server less P2P real estate lease application "LEthRoom" using ETH blockchain.
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
